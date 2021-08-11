@@ -1,9 +1,13 @@
 import React from 'react'
-
+import {ChatEngine} from 'react-chat-engine'
+import './App.css'
 export default function App() {
     return (
-        <div>
-            <h1>React app initiated</h1>
-        </div>
+<ChatEngine
+ height="100vh"
+ projectID=""
+ userName=""
+ userSecret=""
+/>
     )
 }
