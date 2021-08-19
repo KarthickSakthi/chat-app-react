@@ -7,8 +7,8 @@ export default function App() {
 <ChatEngine
  height="100vh"
  projectID="032a437d-ce24-4ec0-99f5-ab499ae1b141"
- userName="Karthick"
- userSecret="621318106041"
+ userName="Jack"
+ userSecret="456456"
  renderChatFeed={(chatAppProps)=><ChatFeed {...chatAppProps} />}
 />
     )
